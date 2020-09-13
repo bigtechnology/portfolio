@@ -17,3 +17,18 @@
 
     background-color: red;
 }
+
+
+/* Porject Wrapper Styling */
+.projects {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+.project {
+    border: 1px solid white;
+    align-self: center;
+    height: 25%;
+    width: 25%;
+}

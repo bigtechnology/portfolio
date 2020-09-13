@@ -12,7 +12,15 @@ function About() {
 
             <div className="projects-wrapper">
                 <div className="projects">
-                    projects
+                    <div className="project p1">
+                        p1
+                    </div>
+                    <div className="project p2">
+                        p2
+                    </div>
+                    <div className="project p3">
+                        p3
+                    </div>
                 </div>
             </div>
         </div>
