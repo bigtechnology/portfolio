@@ -1,0 +1,19 @@
+.about-wrapper {
+    border: 2px solid blue;
+    height: 70%;
+}
+
+.about {
+    border: 1px solid blue;
+    height: 30%;
+
+    background-color: white;
+}
+
+
+.projects-wrapper {
+    border: 1px solid white;
+    height: 70%;
+
+    background-color: red;
+}
