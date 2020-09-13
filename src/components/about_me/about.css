@@ -1,23 +1,32 @@
 .about-wrapper {
-    height: 70%;
+    border: 1px solid blue;
+    height: 90vh;
 }
 
 .about {
-    height: 30%;
+    /* height: 30%; */
 }
 
 .intro {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     color: black;
     text-align: left;
     font-size: 1.3rem;
-    width: 100%;
+    width: 54%;
+    margin-right: 50%;
+
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+}
+
+h4 {
+
 }
 
 .projects-wrapper {
-    border: 1px solid red;
-    margin-top: 11%;
-    height: 70%;
+    /* border: 1px solid red; */
+    /* margin-top: 11%; */
+    height: 50%;
 }
 
 /* Porject Wrapper Styling */
@@ -25,6 +34,8 @@
     display: flex;
     justify-content: space-around;
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 .project {
     align-self: center;

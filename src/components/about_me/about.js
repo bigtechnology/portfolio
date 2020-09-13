@@ -8,9 +8,11 @@ function About() {
             <div className="about about-top-content">
                 <div
                     className="intro">
-                    <h1>about me</h1>
-                    <h4> I am a freelance web developer based out of San Francisco, CA.</h4>
-                    <p>
+                    <h1 className="intro"
+                    >about me</h1>
+                    <h4 className="intro"
+                    > I am a freelance web developer based out of San Francisco, CA.</h4>
+                    <p className="intro">
                     I enjoy solving problems and making life easier through technology. When I'm not coding, you'll find me cooking, gardening or working out.
                     </p>
              </div>
@@ -24,12 +26,14 @@ function About() {
                         </div>
                     </a>
 
-                    <a className="project p2" href="https://www.foundergrants.com/">
+                    <a className="project p2"
+                    target="blank" href="https://www.foundergrants.com/">
                     <div>
                     
                     </div>
                     </a>
-                    <a href="https://objective-carson-d52209.netlify.app/" className="project p3">
+                    <a href="https://objective-carson-d52209.netlify.app/" 
+                    target="blank"className="project p3">
                     <div>
                     </div>
                         </a>

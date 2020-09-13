@@ -7,6 +7,8 @@
 }
 
 .nav{
+	list-style: none;
+
     display: flex;
 	height: 80px;
 	margin: 0 5px;
@@ -19,6 +21,8 @@
 }
 
 .about {
+	list-style: none;
+
     animation-delay: 1.5s;
     color: white;
     font-family: 'Cormorant Garamond', serif;
