@@ -1,34 +1,55 @@
 .about-wrapper {
-    border: 2px solid blue;
     height: 70%;
 }
 
 .about {
-    border: 1px solid blue;
     height: 30%;
-
-    background-color: white;
 }
 
+.intro {
+    border: 1px solid red;
+    color: black;
+    text-align: left;
+    font-size: 1.3rem;
+    width: 100%;
+}
 
 .projects-wrapper {
-    border: 1px solid white;
+    border: 1px solid red;
+    margin-top: 11%;
     height: 70%;
-
-    background-color: red;
 }
-
 
 /* Porject Wrapper Styling */
 .projects {
-    border: 2px solid blue;
     display: flex;
     justify-content: space-around;
     height: 100%;
 }
 .project {
-    border: 1px solid white;
     align-self: center;
-    height: 25%;
+    height: 60%;
     width: 25%;
+    padding: 1%;
+}
+
+.p1 {
+    background-color: aquamarine;
+    background-image: url("../../images/project1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.p2{
+    background-color: aquamarine;
+    background-image: url("../../images/founder.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.p3{
+    background-color: aquamarine;
+    background-image: url("../../images/sls.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }

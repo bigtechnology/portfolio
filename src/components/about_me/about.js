@@ -1,26 +1,38 @@
 import React from "react";
 import "./about.css"
+import p1 from '../../images/project1.png'
 
 function About() {
     return (
         <div className="about-wrapper">
             <div className="about about-top-content">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis doloribus facere a illo soluta vero voluptatum tenetur asperiores sapiente. Tempore ullam laboriosam porro non illum hic obcaecati ipsam laborum delectus!
-                </p>
+                <div
+                    className="intro">
+                    <h1>about me</h1>
+                    <h4> I am a freelance web developer based out of San Francisco, CA.</h4>
+                    <p>
+                    I enjoy solving problems and making life easier through technology. When I'm not coding, you'll find me cooking, gardening or working out.
+                    </p>
+             </div>
             </div>
 
             <div className="projects-wrapper">
+
                 <div className="projects">
-                    <div className="project p1">
-                        p1
+                    <a className="project p1" target="blank" href="https://word-bank-fe.vercel.app/">
+                        <div >
+                        </div>
+                    </a>
+
+                    <a className="project p2" href="https://www.foundergrants.com/">
+                    <div>
+                    
                     </div>
-                    <div className="project p2">
-                        p2
+                    </a>
+                    <a href="https://objective-carson-d52209.netlify.app/" className="project p3">
+                    <div>
                     </div>
-                    <div className="project p3">
-                        p3
-                    </div>
+                        </a>
                 </div>
             </div>
         </div>
