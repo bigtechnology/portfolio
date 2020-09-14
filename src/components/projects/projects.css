@@ -1,0 +1,90 @@
+.projects-wrapper {
+    /* border: 1px solid red; */
+    /* margin-top: 11%; */
+    height: 50%;
+    
+}
+
+/* Porject Wrapper Styling */
+.projects {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.project {
+    align-self: center;
+    height: 60%;
+    width: 25%;
+    padding: 1%;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  text-decoration: none;
+
+}
+
+.view {
+    /* border: 1px solid gray; */
+    background-color: rgba(128, 128, 128, 0.26);
+    width: 12%;
+    margin: 45% 0 0 2%;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1%;
+    transition: ease-in .5s;
+    color: black;
+
+}
+
+.view:hover {
+    /* border: 1px solid gray; */
+    background-color: rgba(128, 128, 128, 0.733);
+    font-size: 1.2rem;
+    transition: ease-out .5s;
+    width: 13%;
+}
+
+
+.p1 {
+    /* text-decoration: none; */
+
+    background-color: aquamarine;
+    background-image: url("../../images/project1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    transition: ease-in-out 0.3s;
+}
+
+.p2{
+    background-color: aquamarine;
+    background-image: url("../../images/founder.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+}
+
+.p3{
+    background-color: aquamarine;
+    background-image: url("../../images/sls.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+}
+
+.p1:hover {
+    opacity: 1;
+    transition: ease-in-out 0.3s;
+}
+
+.p2:hover {
+    opacity: 1;
+    transition: ease-in-out 0.3s;
+   
+}
+.p3:hover {
+    opacity: 1;
+    transition: ease-in-out 0.3s;  
+}

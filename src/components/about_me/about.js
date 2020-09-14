@@ -1,6 +1,8 @@
 import React from "react";
 import "./about.css"
-import p1 from '../../images/project1.png'
+import "../projects/projects.css"
+
+import Projects from "../projects/projects";
 
 function About() {
     return (
@@ -8,7 +10,7 @@ function About() {
             <div className="about about-top-content">
                 <div
                     className="intro">
-                    <h1 className="intro"
+                    <h1 className="intro-title"
                     >about me</h1>
                     <h4 className="intro"
                     > I am a freelance web developer based out of San Francisco, CA.</h4>
@@ -17,28 +19,7 @@ function About() {
                     </p>
              </div>
             </div>
-
-            <div className="projects-wrapper">
-
-                <div className="projects">
-                    <a className="project p1" target="blank" href="https://word-bank-fe.vercel.app/">
-                        <div >
-                        </div>
-                    </a>
-
-                    <a className="project p2"
-                    target="blank" href="https://www.foundergrants.com/">
-                    <div>
-                    
-                    </div>
-                    </a>
-                    <a href="https://objective-carson-d52209.netlify.app/" 
-                    target="blank"className="project p3">
-                    <div>
-                    </div>
-                        </a>
-                </div>
-            </div>
+            <Projects/>
         </div>
     )
 }

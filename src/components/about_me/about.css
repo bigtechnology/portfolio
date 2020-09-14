@@ -1,10 +1,16 @@
 .about-wrapper {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 90vh;
 }
 
 .about {
     /* height: 30%; */
+}
+
+.intro-title {
+/* border: 1px solid red; */
+font-size: 3.8rem;
+font-family: 'Roboto Slab', serif;
 }
 
 .intro {
@@ -15,52 +21,9 @@
     width: 54%;
     margin-right: 50%;
 
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 1.5rem;
-}
+    font-family: 'Roboto Slab', serif;}
 
 h4 {
 
 }
 
-.projects-wrapper {
-    /* border: 1px solid red; */
-    /* margin-top: 11%; */
-    height: 50%;
-}
-
-/* Porject Wrapper Styling */
-.projects {
-    display: flex;
-    justify-content: space-around;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-.project {
-    align-self: center;
-    height: 60%;
-    width: 25%;
-    padding: 1%;
-}
-
-.p1 {
-    background-color: aquamarine;
-    background-image: url("../../images/project1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.p2{
-    background-color: aquamarine;
-    background-image: url("../../images/founder.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.p3{
-    background-color: aquamarine;
-    background-image: url("../../images/sls.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
