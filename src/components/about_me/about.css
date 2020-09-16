@@ -1,29 +1,27 @@
 .about-wrapper {
-    /* border: 1px solid blue; */
-    height: 90vh;
-}
-
-.about {
-    /* height: 30%; */
+    height: 50%;
+    border: 1px solid blue;
+    color: black;
+    text-align: left;
+    font-size: 1.3rem;
+    width: 100%;
+    font-family: 'Roboto Slab', serif;
 }
 
 .intro-title {
-/* border: 1px solid red; */
+border: 1px solid red;
 font-size: 3.8rem;
 font-family: 'Roboto Slab', serif;
 }
 
-.intro {
+.about-content {
     /* border: 1px solid red; */
-    color: black;
-    text-align: left;
-    font-size: 1.3rem;
-    width: 54%;
-    margin-right: 50%;
+    width: 35%;
 
-    font-family: 'Roboto Slab', serif;}
+}
 
-h4 {
 
+.project-wrapper {
+    border: 1px solid red;
 }
 

@@ -6,18 +6,12 @@ function Projects() {
 <div className="projects-wrapper">
 
 <div className="projects">
-    <a className="project p1" target="blank" href="https://word-bank-fe.vercel.app/">
+    <a className="project p1" target="blank" href="https://contest.storysquad.app/">
         <div className="view">
             view
         </div>
     </a>
 
-    <a className="project p2"
-    target="blank" href="https://www.foundergrants.com/">
-        <div className="view">
-            view
-        </div>
-    </a>
 
     <a href="https://objective-carson-d52209.netlify.app/" 
     target="blank"className="project p3">
@@ -25,6 +19,13 @@ function Projects() {
             view
         </div>
         </a>
+
+    <a className="project p2"
+    target="blank" href="https://www.foundergrants.com/">
+        <div className="view">
+            view
+        </div>
+    </a>
 </div>
 </div>
     )
