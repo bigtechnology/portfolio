@@ -8,7 +8,14 @@ function About() {
     return (
         <div className="about-wrapper">
 
-                <div className="about-content">
+            <div className="about-content">
+
+            <div className="left-content">
+                <h1 className="profile">BEN GRIFFIN</h1>
+                <h4 className="profile-h4" >Web Developer / Computer Scientist</h4>
+            </div>
+
+                <div className="middle-content">
                     <h1 className="intro-title"
                     >about me</h1>
                     <h4 className="about-h4"
@@ -17,6 +24,11 @@ function About() {
                     I enjoy solving problems and making life easier through technology. When I'm not coding, you'll find me cooking, gardening or working out.
                     </p>
                 </div>
+
+            <div className="right-content">
+            </div>
+
+            </div>
 
             <div className="project-wrapper">
             <Projects/>
