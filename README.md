@@ -10,6 +10,6 @@
 > 3. Founder Grants - a one stop shop for start up companies around the world. 
 
 ### Todo
-> - [ ] create readme
-> - [ ] intro paragraph
-> - [ ] projects section needs grid layout - 3 porjects at a time max
+> - [X] create readme
+> - [X] intro paragraph
+> - [X] projects section needs grid layout - 3 porjects at a time max
