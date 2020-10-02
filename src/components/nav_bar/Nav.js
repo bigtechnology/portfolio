@@ -1,23 +1,25 @@
 import React from "react";
-import "./Nav.css"
+import {Link,Switch, Route} from "react-router-dom";
+import NavContent from "./navContent";
+import About from "../about_me/about";
+
 
 function Nav() {
     return (
-        <div className="nav-wrapper">
-            <nav className="nav">
-                <a className="about nav-links" href="/about">about</a>
-                <ul className="social-links">
-                    <a href="mailto:cgsaldanasbd@gmail.com">
-                    <li className="social-link mail">
-                    </li>
-                    </a>
+        <>
+        <NavContent/>
+        <Link to="/about">
+        </Link>
 
-                    <a rel="noopener noreferrer" target="_blank" href="https://instagram.com/cristiannoh15?igshid=3zk51vyuwd2k">
-                    <li className="social-link instagram" ></li>
-                    </a>
-                </ul>
-            </nav>
-        </div>
+
+        <Switch>
+
+        <Route path="/about" > 
+        <About/>
+        </Route>
+
+        </Switch>
+        </>
     )
 }
 
