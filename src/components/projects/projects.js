@@ -1,5 +1,4 @@
 import React from "react";
-import p1 from '../../images/project1.png'
 
 function Projects() {
     return (

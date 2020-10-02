@@ -7,21 +7,13 @@ function Nav() {
             <nav className="nav">
                 <a className="about nav-links" href="/about">about</a>
                 <ul className="social-links">
-                    <a href="mailto:big-technology@outlook.com">
+                    <a href="mailto:cgsaldanasbd@gmail.com">
                     <li className="social-link mail">
                     </li>
                     </a>
-                    
-                    <a href="https://twitter.com/ben_i_griffin">
-                    <li className="social-link twitter" ></li>
-                    </a>
 
-                    <a href="https://www.linkedin.com/in/b-griffinn/">
-                    <li className="social-link linkedin" ></li>
-                    </a>
-
-                    <a href="https://github.com/B-Griffinn">
-                    <li className="social-link github" ></li>
+                    <a rel="noopener noreferrer" target="_blank" href="https://instagram.com/cristiannoh15?igshid=3zk51vyuwd2k">
+                    <li className="social-link instagram" ></li>
                     </a>
                 </ul>
             </nav>

@@ -44,37 +44,18 @@
     width: 35px;
     height: 35px;
     background-color: white;
-    background-image: url("../../images/outlook.svg");
+    background-image: url("../../images/gmail.svg");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.twitter{
-    border-radius: 6px;
-    width: 35px;
-    height: 35px;
-    background-color: white;
-    background-image: url("../../images/twitter.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
 
-.linkedin{
+.instagram{
     border-radius: 6px;
     width: 35px;
     height: 35px;
     background-color: white;
-    background-image: url("../../images/linkedin.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.github{
-    border-radius: 6px;
-    width: 35px;
-    height: 35px;
-    background-color: white;
-    background-image: url("../../images/github.svg");
+    background-image: url("../../images/instagram.svg");
     background-repeat: no-repeat;
     background-size: contain;
 }

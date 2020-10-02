@@ -51,7 +51,7 @@
     /* text-decoration: none; */
 
     background-color: aquamarine;
-    background-image: url("../../images/ss-mvp.png");
+    /* background-image: url("../../images/"); */
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.4;
@@ -60,7 +60,7 @@
 
 .p2{
     background-color: aquamarine;
-    background-image: url("../../images/founder.png");
+    /* background-image: url("../../images/"); */
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.4;
@@ -68,7 +68,7 @@
 
 .p3{
     background-color: aquamarine;
-    background-image: url("../../images/sls.png");
+    /* background-image: url("../../images/"); */
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.4;
