@@ -1,11 +1,7 @@
 .projects-wrapper {
-    /* border: 1px solid red; */
-    /* margin-top: 11%; */
-    height: 50%;
-    
+    margin-bottom: 11%;
 }
 
-/* Porject Wrapper Styling */
 .projects {
     display: flex;
     justify-content: space-around;
@@ -18,18 +14,16 @@
     height: 60%;
     width: 25%;
     padding: 1%;
-    -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;  
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  
+  box-shadow:         3px 3px 5px 6px #ccc;  
   text-decoration: none;
 
 }
 
 .view {
-    /* border: 1px solid gray; */
-    background-color: rgba(128, 128, 128, 0.26);
     width: 12%;
-    margin: 45% 0 0 2%;
+    margin: 45% 0% 0% 2%;
     font-size: 1rem;
     text-align: center;
     padding: 1%;
@@ -39,8 +33,6 @@
 }
 
 .view:hover {
-    /* border: 1px solid gray; */
-    background-color: rgba(128, 128, 128, 0.733);
     font-size: 1.2rem;
     transition: ease-out .5s;
     width: 13%;
@@ -48,10 +40,9 @@
 
 
 .p1 {
-    /* text-decoration: none; */
-
+    height: 50vh;
     background-color: aquamarine;
-    /* background-image: url("../../images/"); */
+    background-image: url("../../images/d-bells.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.4;
@@ -59,16 +50,18 @@
 }
 
 .p2{
+    height: 50vh;
     background-color: aquamarine;
-    /* background-image: url("../../images/"); */
+    background-image: url("../../images/platform.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.4;
 }
 
 .p3{
+    height: 50vh;
     background-color: aquamarine;
-    /* background-image: url("../../images/"); */
+    background-image: url("../../images/deads.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.4;

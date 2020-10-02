@@ -11,17 +11,18 @@ function About() {
             <div className="about-content">
 
             <div className="left-content">
-                <h1 className="profile">BEN GRIFFIN</h1>
-                <h4 className="profile-h4" >Web Developer / Computer Scientist</h4>
+                <h1 className="profile">CRISTIAN GARCIA</h1>
+                <h4 className="profile-h4" >NASM CERTIFIED PERSONAL TRAINER</h4>
             </div>
 
                 <div className="middle-content">
                     <h1 className="intro-title"
                     >about me</h1>
                     <h4 className="about-h4"
-                    > I am a freelance web developer based out of San Francisco, CA.</h4>
+                    > I am a freelance NASM certified Personal Trainer.</h4>
                     <p className="about-para">
-                    I enjoy solving problems and making life easier through technology. When I'm not coding, you'll find me cooking, gardening or working out.
+                    I enjoy helping others achieve their goals through fitness. 
+                    My goal is to help others discover the power that hard work, dedication and persistance can achieve. 
                     </p>
                 </div>
 
