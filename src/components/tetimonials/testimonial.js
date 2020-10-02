@@ -4,7 +4,7 @@ function Testimonial() {
 return (
     <>
     <div className="testimonial-wrapper">
-        <h1>TestimonialS</h1>
+        <h1>TESTIES</h1>
     </div>
     </>
 )
