@@ -1,12 +1,20 @@
 import React, {useState} from "react";
+import ContactModal from "../modals/contactModal";
+import "./contactMe.css"
 
 
 function ContactMe() {
     // State
     const [user, setUser] = useState({
         firstName: "",
-        lastName: ""
+        lastName: "",
+        email: "",
+        phone: "",
+        message:""
     })
+    
+    // enable/disable modal
+    const [disabled, setDisabled] = useState(false)
 
     const handleFormChange = (event) => {
         setUser({
@@ -18,20 +26,46 @@ function ContactMe() {
     // Handler Functions
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log("USER", user)
-        // setUser({})
+        // call the modal
+        setDisabled(true)
+        setUser({
+            firstName: "",
+            lastName: "",
+            email: "",
+            phone: "",
+            message:""
+        })
     }
+
+
     
 
     return (
         <div className="contact-me-wrapper">
-            <form onSubmit={handleSubmit}>
+            {/* modal if the user submits */}
+            {disabled ? <ContactModal/> : ""}
+            <form className="form" onSubmit={handleSubmit}>
 
-                <label htmlFor="">First Name</label>
-                <input type="text" name="firstName" value={user.firstName} onChange={handleFormChange} />
+                <div className="first-last">
+                
+                <input placeholder="First Name" size="20" type="text" name="firstName" value={user.firstName} onChange={handleFormChange} />
 
-                <label htmlFor="">Last Name</label>
-                <input type="text" name="lastName" value={user.lastName} onChange={handleFormChange} />
+              
+                <input placeholder="Last Name" size="20" type="text" name="lastName" value={user.lastName} onChange={handleFormChange} />
+                </div>
+
+                <div className="email-phone">
+              
+                <input placeholder="Email" size="20" type="text" name="email" value={user.email} onChange={handleFormChange} />
+
+        
+                <input placeholder="Phone (not required)" size="20" type="text" name="phone" value={user.phone} onChange={handleFormChange} />
+                </div>
+
+                <div className="message-wrapper">
+            
+                <textarea className="contact-input contact-message" placeholder="Message Us!" name="message" cols="50" rows="5" wrap="auto" maxLength="255" onChange={handleFormChange} ></textarea>
+                </div>
 
                 <button type="submit">send</button>
 
