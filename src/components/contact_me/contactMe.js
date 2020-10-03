@@ -8,10 +8,17 @@ function ContactMe() {
         lastName: ""
     })
 
+    const handleFormChange = (event) => {
+        setUser({
+            ...user,
+            [event.target.name]: event.target.value
+        })    
+    }
+
     // Handler Functions
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log("USER", e.target.value)
+        console.log("USER", user)
         // setUser({})
     }
     
@@ -21,10 +28,10 @@ function ContactMe() {
             <form onSubmit={handleSubmit}>
 
                 <label htmlFor="">First Name</label>
-                <input type="text" name="first-name" value="first-name"/>
+                <input type="text" name="firstName" value={user.firstName} onChange={handleFormChange} />
 
                 <label htmlFor="">Last Name</label>
-                <input type="text" name="last-name" value="last-name"/>
+                <input type="text" name="lastName" value={user.lastName} onChange={handleFormChange} />
 
                 <button type="submit">send</button>
 
