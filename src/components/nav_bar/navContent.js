@@ -9,7 +9,8 @@ function Nav() {
                     <a className="home nav-links" href="/home">home</a>
                     <a className="about nav-links" href="/about">about</a>
                     <a className="testimonial nav-links" href="/testimonials">testimonials</a>
-                    <a className="testimonial nav-links" href="/services">services</a>
+                    <a className="services nav-links" href="/services">services</a>
+                    <a className="contact-me nav-links" href="/contact">contact me</a>
 
                
                 <ul className="social-links">

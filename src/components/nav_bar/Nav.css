@@ -23,7 +23,7 @@
 }
 
 
-.about, .testimonial, .home {
+.about, .testimonial, .home, .services, .contact-me {
 	list-style: none;
     animation-delay: 1.5s;
     color: white;
