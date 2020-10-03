@@ -27,7 +27,7 @@ function ContactMe() {
     const handleSubmit = (e) => {
         e.preventDefault();
         // call the modal
-        setDisabled(true)
+        console.log("SUSUSUSU", user)
         setUser({
             firstName: "",
             lastName: "",
@@ -35,15 +35,14 @@ function ContactMe() {
             phone: "",
             message:""
         })
+
     }
 
-
-    
 
     return (
         <div className="contact-me-wrapper">
             {/* modal if the user submits */}
-            {disabled ? <ContactModal/> : ""}
+
             <form className="form" onSubmit={handleSubmit}>
 
                 <div className="first-last">
@@ -64,10 +63,10 @@ function ContactMe() {
 
                 <div className="message-wrapper">
             
-                <textarea className="contact-input contact-message" placeholder="Message Us!" name="message" cols="50" rows="5" wrap="auto" maxLength="255" onChange={handleFormChange} ></textarea>
+                <textarea className="contact-input contact-message" type="text"  value={user.message} placeholder="Message Us!" name="message" cols="50" rows="5" wrap="auto" maxLength="255" onChange={handleFormChange} ></textarea>
                 </div>
-
-                <button type="submit">send</button>
+                
+                <ContactModal  />
 
             </form>
         </div>
