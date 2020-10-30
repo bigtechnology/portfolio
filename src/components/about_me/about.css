@@ -1,5 +1,4 @@
 .about-wrapper {
-    height: 50%;
     /* border: 1px solid blue; */
     color: black;
     text-align: left;
@@ -11,12 +10,15 @@
 .about-content {
     /* border: 1px solid yellow; */
     display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
     margin-bottom: 5%;
 }
 
 .profile {
-    margin: 17% 0 0 5%;
-    line-height: 0;
+    /* border: 1px solid red; */
+    /* margin: 17% 0 0 5%;
+    line-height: 0; */
 }
 
 .profile-h4 {
@@ -32,6 +34,10 @@ font-family: 'Roboto Slab', serif;
 
 .left-content {
     /* background-color: blue; */
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 33.3333%;
 }
 

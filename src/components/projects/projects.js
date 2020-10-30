@@ -1,13 +1,13 @@
 import React from "react";
-import p1 from '../../images/project1.png'
 
 function Projects() {
     return (
 <div className="projects-wrapper">
 
 <div className="projects">
-    <a className="project p1" target="blank" href="https://contest.storysquad.app/">
+    <a className="project p1" href="#">
         <div className="view">
+<<<<<<< HEAD
             {/* view */}
         </div>
     </a>
@@ -15,12 +15,24 @@ function Projects() {
     target="blank"className="project p3">
         <div className="view">
             {/* view */}
+=======
+        </div>
+    </a>
+    <a href="#" 
+     rel="noopener noreferrer"
+    className="project p3">
+        <div className="view">
+>>>>>>> b45235a8e47e2ec402ee105f069e10ae22d2da5f
         </div>
         </a>
     <a className="project p2"
-    target="blank" href="https://www.foundergrants.com/">
+     rel="noopener noreferrer"
+     href="#">
         <div className="view">
+<<<<<<< HEAD
             {/* view */}
+=======
+>>>>>>> b45235a8e47e2ec402ee105f069e10ae22d2da5f
         </div>
     </a>
 </div>
