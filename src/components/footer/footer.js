@@ -23,7 +23,14 @@ function Footer() {
             >
               <i className="fab fa-linkedin" />
             </a>
-
+            <a
+              className="social-icon-link youtube"
+              href="https://github.com/B-Griffinn"
+              target="blank"
+              aria-label="Github"
+            >
+              <i class="fab fa-github-square" />
+            </a>
             <a
               className="social-icon-link youtube"
               href="mailto:big-technology@outlook.com"
