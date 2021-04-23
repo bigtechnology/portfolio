@@ -1,18 +1,19 @@
 import React from "react";
-import "./App.css";
+import {Route, Switch} from 'react-router';
 
 // COMPONENTS \\
-import About from "./components/about_me/about";
-import Footer from "./components/footer/footer";
-import NewNav from "./components/newNav/newNav";
+import { Footer, Header } from "./components/common";
+import { LandingPage } from "./components/pages/LandingPage";
 
 function App() {
   return (
     <div className="App">
-      <NewNav />
-      <About />
-      <Footer />
-    </div>
+      <Header />
+    <Switch>
+      <Route exact path="/" component={LandingPage} />
+    </Switch>
+    <Footer />
+  </div>
   );
 }
 
