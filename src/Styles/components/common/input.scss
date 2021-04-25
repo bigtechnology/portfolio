@@ -16,12 +16,13 @@
         font-weight: 600;
         padding-bottom: 5px;
         color: #353339;
-
       }
-  
+      
       & > input {
         font-size: 1.4rem;
         padding: 10px;
+        background-color: $cloudwhite;
+        border: none;
       }
     }
   

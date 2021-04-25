@@ -1,12 +1,12 @@
 // Styles for ContactUsPageContainer.tsx
 .contact-page {
-    background-color: #d8ccc8;
+    background-color: $skyblue;
     text-align: center;
     padding: 2rem;
     display: flex;
     flex-flow: column;
     align-items: center;
-    min-height: 75vh;
+    min-height: 85vh;
     h1 {
       font-size: 2.5rem;
       margin-bottom: 0.5rem;
@@ -19,7 +19,7 @@
       line-height: 2.8rem;
       font-style: italic;
       color: #555;
-      font-weight: 400;
+      font-weight: bold;
        padding: 20px;
     }}
   }
@@ -42,17 +42,28 @@
     
     .form-btn {
       align-self: center;
-      background-color: #637c8b;
+      background-color: #f2f2ed;
       border: none;
-      color: white;
+
+      font-size: 2rem;
+      font-weight: bold;
+      color: #181A18;
       text-align: center;
       text-decoration: none;
       margin-top: 2rem;
-      font-size: 2rem;
       border-radius: 290486px;
       padding-left: calc(1em + 0.25em);
       padding-right: calc(1em + 0.25em);
       padding-top: 8px;
       padding-bottom: 8px;
+      transition: all 0.85s ease-in;
+
+
+      &:hover {
+      background-color: $skyblue;
+      border: 2px solid $cloudwhite;
+      transition: all 0.5 ease-in-out;
+    }
+
     }
   }

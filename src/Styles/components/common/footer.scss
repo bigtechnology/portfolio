@@ -4,6 +4,7 @@
   
     line-height: 2;
     padding: 20px;
+    height: 145px;
   
     h3 {
       font-size: 2rem;
@@ -38,7 +39,6 @@
   
       h3 {
         @include bp(mid) {
-          border: 1px solid red;
           display: none;
         }
       }
