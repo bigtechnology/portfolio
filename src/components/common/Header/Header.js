@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header>
       <div className="header-content">
-        <h1 onClick={goHome}>Ben Griffin</h1>
+        <h1 onClick={goHome}>Benjamin Griffin</h1>
         <input type="checkbox" className="toggler" />
         <div className="hamburger">
           <div></div>
