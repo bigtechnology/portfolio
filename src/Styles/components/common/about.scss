@@ -1,12 +1,53 @@
 .about-wrapper {
   background-color: #fff;
-  min-height: 85vh;
+  // min-height: 85vh;
+
+  
+  .avatar-wrapper {
+    width: 100%;
+    height: auto;
+    padding: 10px ;
+
+    .avatar-img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 200px;
+      background: url('../../../resources/images/avatar.svg') no-repeat center
+      center;
+     background-size: contain;
+  }
+
+  }
+
+  
+  .developer-wrapper {
+    width: 100%;
+    height: auto;
+
+    .developer-img {
+      display: block;
+      // margin-top: auto;
+      // margin-left: auto;
+      // margin-bottom: auto;
+      // margin-left: auto;
+      height: 200px;
+      background: url('../../../resources/images/developer.svg') no-repeat center
+      center;
+     background-size: contain;
+     background-position-y: 115%;
+
+  }
+
+  }
   
   .about-content {
       padding: 3rem;
       display: flex;
       flex-direction: column;
       align-content: center;
+    background-color: $skyblue;
+
   
       h2 {
         font-size: 2.6rem;
@@ -16,28 +57,13 @@
         margin-bottom: 1.6rem;
         color: #141c3a;
       }
-
-      .avatar-wrapper {
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        padding: 10px;        
-        .avatar-img {
-          width: 50%;
-          height: 175px;
-        background: url('../../../resources/images/avatar.svg') no-repeat center
-        center;
-        background-size: cover;
-      }
-
-      }
   
       p {
         font-size: 1.6rem;
         line-height: 2.6rem;
         color: #141c3a;
         font-weight: 600;
+
 
         &:not(:last-child) {
           // border: 1px solid red;

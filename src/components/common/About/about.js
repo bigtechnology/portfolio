@@ -5,12 +5,16 @@ const About = () => {
     <div className="about-wrapper">
       {/* <h2>image of the founders, owners etc here?</h2> */}
 
-      <div className="about-content">
-        <h2>Full Stack Web Developer</h2>
-
         <div className="avatar-wrapper">
           <div className="avatar-img"></div>
         </div>
+
+        <div className="developer-wrapper">
+          <div className="developer-img"></div>
+        </div>
+      <div className="about-content">
+        <h2>Full Stack Web Developer</h2>
+
 
         <p>I am a Full Stack Web Developer based out of San Francisco, CA. I
             enjoy solving hard problems and making people's lives easier through
