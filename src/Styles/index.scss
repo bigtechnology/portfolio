@@ -8,9 +8,11 @@
 @import './mediaQueries.scss';
 
 // Page Component Stylesheets
+@import './components/pages/contactPage.scss';
+@import './components/pages/landingPage.scss';
 
 // Common Component Stylesheets
 @import './components/common/header.scss';
 @import './components/common/footer.scss';
 @import './components/common/about.scss';
-
+@import './components/common/input.scss';
