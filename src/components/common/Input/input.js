@@ -1,11 +1,7 @@
 import React from 'react';
 import DatePicker from 'react-datepicker';
 import {
-  Control,
   Controller,
-  ControllerProps,
-  FieldValues,
-  UseFormStateReturn,
 } from 'react-hook-form';
 import InputMask from 'react-input-mask';
 
@@ -22,7 +18,7 @@ const Input = ({
   rules = {},
   defaultValue,
   ...inputProps
-}: IInputProps): React.ReactElement => {
+})=> {
   return (
     <div className="input-field">
       <div className="input-wrapper">
@@ -79,27 +75,27 @@ const Input = ({
   );
 };
 
-interface IInputProps
-  extends Omit<React.InputHTMLAttributes<HTMLInputElement>, 'defaultValue'> {
-  id: string;
-  name: string;
-  label?: string;
-  // TODO create the optional textarea render
-  type?:
-    | 'text'
-    | 'email'
-    | 'phone'
-    | 'button'
-    | 'number'
-    | 'date'
-    | 'time'
-    | 'textarea';
-  min?: number;
-  placeholder?: string;
-  defaultValue?: unknown;
-  errors?: UseFormStateReturn<FieldValues>['errors'];
-  control: Control<FieldValues>;
-  rules?: ControllerProps['rules'];
-}
+// interface IInputProps
+//   extends Omit<React.InputHTMLAttributes<HTMLInputElement>, 'defaultValue'> {
+//   id: string;
+//   name: string;
+//   label?: string;
+//   // TODO create the optional textarea render
+//   type?:
+//     | 'text'
+//     | 'email'
+//     | 'phone'
+//     | 'button'
+//     | 'number'
+//     | 'date'
+//     | 'time'
+//     | 'textarea';
+//   min?: number;
+//   placeholder?: string;
+//   defaultValue?: unknown;
+//   errors?: UseFormStateReturn<FieldValues>['errors'];
+//   control: Control<FieldValues>;
+//   rules?: ControllerProps['rules'];
+// }
 
 export default Input;

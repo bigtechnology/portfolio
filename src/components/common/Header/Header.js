@@ -11,7 +11,7 @@ const Header = () => {
     <header>
       <div className="header-content">
         <h1 onClick={goHome}>Ben Griffin</h1>
-        {/* <input type="checkbox" className="toggler" />
+        <input type="checkbox" className="toggler" />
         <div className="hamburger">
           <div></div>
         </div>
@@ -23,15 +23,15 @@ const Header = () => {
                   <a href="/">Home</a>
                 </li>
                 <li>
-                  <a href="/contact">Contact</a>
+                  <a href="/contact">Say Hello</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="/gallery">Gallery</a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </header>
   );
