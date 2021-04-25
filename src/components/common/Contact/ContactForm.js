@@ -1,9 +1,8 @@
 import React from 'react';
-import { SubmitHandler, useForm } from 'react-hook-form';
-import { sendEmail } from '../../../services';
+import { useForm } from 'react-hook-form';
 import { Input } from '../Input';
 
-const ContactForm = (): React.ReactElement => {
+const ContactForm = () => {
   const {
     handleSubmit,
     control,
@@ -12,30 +11,33 @@ const ContactForm = (): React.ReactElement => {
     mode: 'onChange',
   });
 
-  const onSubmit: SubmitHandler<IContactFormProps> = async (data) => {
+  const onSubmit = async (data) => {
     console.log('SENT');
     try {
       // console.log('Form Data: ', data);
-      await sendEmail(data);
+      // await sendEmail(data);
     } catch (error) {
       console.log(error);
     }
   };
   return (
-    <div className="contact-page">
-      <h1>Get in touch</h1>
-      <p>We look forward to taking great care of you</p>
+<div className="contact-page">
+
+  <div className="header-wrapper">
+      <p>Thanks for taking the time to reach out. How can I help you today?</p>
+      </div>
+
       <form className="contact-form" onSubmit={handleSubmit(onSubmit)}>
         <Input
-          id="firstName"
-          placeholder="First name"
-          label="First Name*"
-          name="firstName"
+          id="name"
+          placeholder="Name"
+          label="Name*"
+          name="name"
           rules={{ required: 'Required!' }}
           errors={errors}
           control={control}
         />
-        <Input
+        {/* <Input
           id="lastName"
           placeholder="Last name"
           label="Last Name*"
@@ -43,7 +45,7 @@ const ContactForm = (): React.ReactElement => {
           rules={{ required: 'Required!' }}
           errors={errors}
           control={control}
-        />
+        /> */}
         <Input
           id="email"
           placeholder="Email"
@@ -53,7 +55,7 @@ const ContactForm = (): React.ReactElement => {
           errors={errors}
           control={control}
         />
-        <Input
+        {/* <Input
           id="phone"
           type="phone"
           placeholder="Phone number"
@@ -123,7 +125,7 @@ const ContactForm = (): React.ReactElement => {
           // rules={{ required: 'Required!' }}
           errors={errors}
           control={control}
-        />
+        /> */}
         <Input
           id="message"
           placeholder="Enter your message"
@@ -147,12 +149,12 @@ const ContactForm = (): React.ReactElement => {
   );
 };
 
-interface IContactFormProps {
-  name: string;
-  email: string;
-  phone: string;
-  subject: string;
-  message: string;
-}
+// interface IContactFormProps {
+//   name: string;
+//   email: string;
+//   phone: string;
+//   subject: string;
+//   message: string;
+// }
 
 export default ContactForm;
