@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="footer-wrapper">
       <div className="contact-us">
-        <h3 onClick={goToDashboard}>Ben Griffin</h3>
+        <h3 onClick={goToDashboard}>Benjamin Griffin</h3>
         {/* <p>physical address</p>
         <p>Suite #</p> */}
         <p>San Francisco, CA</p>
@@ -18,12 +18,12 @@ const Footer = () => {
       </div>
 
       <div className="customer-service">
-        <h3>Customer Service</h3>
+        {/* <h3>Customer Service</h3> */}
         {/* <p>Phone Number</p> */}
         <p>
-          <a href="mailto:renegade_salon@yahoo.com">Contact Us</a>
+          <a href="mailto:big-technology@outlook.com?subject=Connect with Benjamin"> Contact Me</a>
         </p>
-        {/* <a
+     {/* <a
           className="instagram-icon"
           href="https://www.instagram.com/renegade_salon/?hl=en"
           target="_blank"
@@ -33,7 +33,7 @@ const Footer = () => {
         </a> */}
       </div>
       {/* <div className="copy-rights">
-        <p> Ben Griffin </p>
+        <p> Benjamin Griffin </p>
       </div> */}
     </footer>
   );
