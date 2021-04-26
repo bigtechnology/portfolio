@@ -1,0 +1,79 @@
+// Entire Gallery Page Styling
+.projects-container {
+    background-color: $cloudwhite;
+  
+    // Gallery Headers
+    .header {
+      background-color: $skyblue;
+
+      h2 {
+        font-size: 2.9rem;
+        line-height: 3.212rem;
+        margin: 1rem 0 1rem 0;
+        padding: 1rem 0 1rem 3rem;
+        text-transform: uppercase;
+    }
+  }
+  
+    .projects-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      // Gallery Image Section
+      .images-wrapper {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          
+          width: 100%;
+          height: auto;
+          padding: 10px;
+  
+        // General Styles that apply to each gallery image
+        a {
+          margin-bottom: 2rem;
+            width: 100%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 200px;
+            cursor: pointer;
+
+            &:hover {
+              transition: 0.85s ease-in;
+              transform: scale(1.1);
+            }
+        }
+
+        // Specific Gallery image styling
+        .item-1 {
+          background: url('../../../resources/images/fdsc.png') no-repeat center
+            center;
+          background-size: contain;
+        }
+        .item-2 {
+          background: url('../../../resources/images/rumble.png') no-repeat center
+            center;
+          background-size: contain;
+        }
+        .item-3 {
+          background: url('../../../resources/images/cg.png') no-repeat center
+            center;
+          background-size: contain;
+        }
+  
+        @include bp(tablet) {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+          & > a {
+            width: 30%;
+          }
+        }
+      }
+    }
+  }

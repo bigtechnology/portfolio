@@ -1,5 +1,5 @@
 import React from 'react';
-import {  About,  Projects } from '../../common';
+import {  About, Projects, Skills } from '../../common';
 
 
 const LandingPageContainer = () => {
@@ -7,6 +7,7 @@ const LandingPageContainer = () => {
     <div className="landing-page-container">
         <About />
         <Projects />
+        <Skills />
     </div>
   );
 };

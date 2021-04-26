@@ -2,7 +2,7 @@ import React from "react";
 import {Route, Switch} from 'react-router';
 
 // COMPONENTS \\
-import { Footer, Header } from "./components/common";
+import { Footer, Header, Projects } from "./components/common";
 import { ContactPage } from "./components/pages";
 import { LandingPage } from "./components/pages/LandingPage";
 
@@ -13,6 +13,7 @@ function App() {
     <Switch>
       <Route exact path="/" component={LandingPage} />
       <Route exact path="/contact" component={ContactPage} />
+      {/* <Route exact path="/projects" component={Projects} /> */}
     </Switch>
     <Footer />
   </div>

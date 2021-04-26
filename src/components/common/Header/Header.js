@@ -26,7 +26,7 @@ const Header = () => {
                   <a href="/contact">Say Hello</a>
                 </li>
                 {/* <li>
-                  <a href="/gallery">Gallery</a>
+                  <a href="/projects">Projects</a>
                 </li> */}
               </ul>
             </div>

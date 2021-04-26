@@ -3,25 +3,23 @@ import React from 'react';
 const About = () => {
   return (
     <div className="about-wrapper">
-      {/* <h2>image of the founders, owners etc here?</h2> */}
-
         <div className="avatar-wrapper">
           <div className="avatar-img"></div>
         </div>
 
-        <div className="developer-wrapper">
-          <div className="developer-img"></div>
+        <div className="header-wrapper">
+          <h2>About</h2>
         </div>
+
       <div className="about-content">
         <h2>Full Stack Web Developer</h2>
 
 
-        <p>I am a Full Stack Web Developer based out of San Francisco, CA. I
-            enjoy solving hard problems and making people's lives easier through
-            technology. When I'm not coding, you'll find me cooking, reading or
-            exercising.</p>
+        <p>I am a Full Stack Web Developer with a passion in improving lives   through the power of technology.
+        I’ve always sought out opportunities and challenges that are meaningful to me. Although my professional path has taken many twists and turns — from delivering pizza and bussing tables, a senior technology analysit at the largest U.S. mobile bidding company, project manager of an education technology start up, to small business owner and entrepreneur — I've never stopped engaging my passion to help others and solve problems.
+        </p>
         <p>
-        I design and code beautifully simple things, and I love what I do.
+        As a web developer, I enjoy using my obsessive attention to detail, my unequivocal love for making things, and my mission-driven work ethic to literally change the world. That's why I’m excited to make a positive impact on your business.
         </p>
       </div>
     </div>
